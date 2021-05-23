@@ -1,0 +1,10 @@
+body
+{
+    background-image: url("C:/Users/johannes.kleiber/Documents/Sources/vi-onboarding/layout-1600.png");
+    background-position-y: top;
+    background-position-x: center;
+}
+
+.highlight {
+    background-color: red;
+}

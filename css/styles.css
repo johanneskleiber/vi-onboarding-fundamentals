@@ -1,0 +1,32 @@
+body {
+    font-family: Frutiger,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.page {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.navigation-wrapper {
+    height: 91px;
+    vertical-align: top;
+    position: relative;
+}
+
+.navigation-wrapper nav {
+    padding: 0px;
+}
+
+.navigation-wrapper ul {
+    padding: 0;
+    padding-inline-start: 0;
+}
+
+.navigation-wrapper ul li {
+    display: inline-block;
+}
+
+.navigation-wrapper ul li a {
+    font-size: 18px;
+}
