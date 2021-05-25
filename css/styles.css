@@ -8,6 +8,10 @@ a {
     color: black;
 }
 
+input.search {
+    border-radius: 15px;
+}
+
 .page {
     width: 100%;
     max-width: 1280px;
@@ -38,7 +42,7 @@ a {
     font-size: 18px;
 }
 
-.navigation-wrapper nav#search-nav {
+.navigation-wrapper nav#meta-nav {
     position: absolute;
     right: 30px;
     top: 5px;
