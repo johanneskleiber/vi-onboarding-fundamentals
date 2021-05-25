@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: lightgray;
+    background-color: #eee;
     margin: 0 0 4px 0;
 }
 
@@ -78,6 +78,7 @@ input.search {
 
 nav.breadcrumbs {
     padding: 11px 27px 4px 8px;
+    margin: 0 0 4px 0;
 }
 
 nav.breadcrumbs ul {
@@ -104,4 +105,10 @@ nav.breadcrumbs ul li a:before {
     position: absolute;
     top: 3px;
     left: 0;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 924px auto;
+    column-gap: 10px;
 }
